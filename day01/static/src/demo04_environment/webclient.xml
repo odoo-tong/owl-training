@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <t t-inherit="web.WebClient" t-inherit-mode="extension">
+        <xpath expr="//MainComponentsContainer" position="after">
+            <Environment />
+        </xpath>
+    </t>
+</odoo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <t t-inherit="web.WebClient" t-inherit-mode="extension">
+        <xpath expr="//NotUpdatable[1]" position="after">
+            <h1 style="color:white;text-align:center;">Hello Odoo!</h1>
+        </xpath>
+    </t>
+    <t t-inherit="web_enterprise.HomeMenu" t-inherit-mode="extension">
+        <xpath expr="//ExpirationPanel" position="replace" />
+    </t>
+</odoo>

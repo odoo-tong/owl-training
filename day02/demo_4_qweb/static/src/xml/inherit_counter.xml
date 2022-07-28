@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <t t-inherit="counter" t-inherit-mode="extension">
+        <xpath expr="//button" position="replace">
+            <button>Inherit Add</button>
+        </xpath>
+    </t>
+</odoo>

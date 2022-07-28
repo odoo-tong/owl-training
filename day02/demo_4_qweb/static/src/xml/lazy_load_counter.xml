@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <div t-name="counter" style="text-align: center;">
+        <span class="val" style="color: white;"><t t-esc="count"/></span>
+        <button>Lazy Load Add</button>
+    </div>
+</odoo>

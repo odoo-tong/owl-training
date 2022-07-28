@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <div t-name="counter">
+        <!-- condition -->
+        <t t-if="condition">
+        </t>
+        <t t-elif="condition">
+        </t>
+        <t t-else="">
+        </t>
+
+        <!-- expression -->
+        <t t-out="expression"/>
+
+        <!-- looping -->
+        <t t-foreach="iteration" t-as="variable">
+        </t>
+
+        <!-- attribute -->
+        <!-- <span name="value" id="id"></span> -->
+        <span t-att-name="value" t-att-id="id"></span>
+
+        <!-- variable -->
+        <t t-set="variable" t-value="value"/>
+
+        <!-- sub-templates -->
+        <t t-call="template_name"/>
+    </div>
+</odoo>

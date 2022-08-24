@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="web.Sandbox" owl="1">
+        <div class="demo">
+            <button t-on-click="onClick">Button</button>
+            <Popover />
+        </div>
+    </t>
+</templates>

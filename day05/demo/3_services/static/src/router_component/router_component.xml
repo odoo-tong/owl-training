@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="web.RouterComponent" owl="1">
+        <h1 class="demo">
+            <t t-if="state.route" t-esc="state.route.pathname" />
+        </h1>
+    </t>
+</templates>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="web.FieldBarcode" owl="1">
+        <t t-if="mode === 'edit'">
+            <input
+                class="o_field_char o_field_widget o_quick_editable o_input"
+                type="text"
+                t-ref="input"
+                t-att-value="value || ''"
+                t-att-name="name"
+                t-att-id="_id" />
+        </t>
+        <t t-else="">
+            <img t-ref="img" class="o_field_barcode o_field_widget o_quick_editable" t-att-name="name" />
+        </t>
+    </t>
+</templates>

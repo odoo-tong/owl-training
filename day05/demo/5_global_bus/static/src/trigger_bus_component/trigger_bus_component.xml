@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="web.TriggerBusComponent" owl="1">
+        <h1 class="demo">I am a Sandbox!!!</h1>
+    </t>
+</templates>

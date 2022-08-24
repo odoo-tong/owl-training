@@ -1,0 +1,49 @@
+.bg-primary-blue {
+    background-color: #0637b8;
+}
+
+.py-6 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+.man-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.man-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.man-card {
+    width: 500px;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    border-radius: 0.5rem;
+}
+
+h2.man-form-title {
+    color: #0637b8;
+    font-weight: bold;
+}
+
+.btn-man-primary {
+    background-color: #0e238a;
+    border-color: #0e238a;
+    height: 3rem;
+}
+
+.man-hero-text {
+    padding: 2rem;
+    color: white;
+}
+
+.man-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
